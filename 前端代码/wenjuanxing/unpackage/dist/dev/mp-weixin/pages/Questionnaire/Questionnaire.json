@@ -1,0 +1,13 @@
+{
+  "navigationBarTitleText": "编辑问卷",
+  "enablePullDownRefresh": false,
+  "usingComponents": {
+    "uni-title": "../../uni_modules/uni-title/components/uni-title/uni-title",
+    "uni-easyinput": "../../uni_modules/uni-easyinput/components/uni-easyinput/uni-easyinput",
+    "uni-section": "../../uni_modules/uni-section/components/uni-section/uni-section",
+    "uni-icons": "../../uni_modules/uni-icons/components/uni-icons/uni-icons",
+    "uni-card": "../../uni_modules/uni-card/components/uni-card/uni-card",
+    "uni-data-checkbox": "../../uni_modules/uni-data-checkbox/components/uni-data-checkbox/uni-data-checkbox",
+    "uni-fab": "../../uni_modules/uni-fab/components/uni-fab/uni-fab"
+  }
+}

@@ -1,0 +1,41 @@
+
+.title.data-v-06604608 {
+		padding: 15px;
+}
+.line.data-v-06604608 {
+		height: 30px;
+		background-color: #e1e1e1;
+}
+.Font.data-v-06604608 {
+		padding-top: 5px;
+		padding-bottom: 5px;
+		color: #8b8b8b;
+}
+.list-item.data-v-06604608 {
+		padding: 10px;
+		display: flex;
+}
+.list-item>image.data-v-06604608 {
+		padding-right: 15px;
+		height: 30px;
+		width: 30px;
+}
+.list-item>input.data-v-06604608 {
+		height: 30px;
+}
+.horizontal-line.data-v-06604608 {
+		border-top: 1px solid #dcdcdc;
+		/* 设置上边框为实线，颜色为黑色 */
+		/* margin:20px 0; */
+		/* 设置上下间距，根据需要调整 */
+}
+.item.data-v-06604608 {
+		padding: 10px;
+		display: flex;
+		justify-content: space-between;
+}
+button.data-v-06604608 {
+		margin: 15px;
+		background-color: #00aaff;
+		color: #fff;
+}

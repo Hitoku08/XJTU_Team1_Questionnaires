@@ -1,0 +1,53 @@
+# 删除数据库
+drop database meituan;
+# 创建数据库
+create database meituan;
+#作用与某个数据库
+use meituan;
+
+# 创建商铺表
+create table tab_store(
+    sid int primary key auto_increment,
+    name varchar(50) not null,
+    disc varchar(200),
+    picPath varchar(200) not null,
+    score double,
+    salNum int,
+    distance double,
+    deliveryTime int,
+    startPrice double,
+    currentPirce double
+);
+
+# 插入数据
+insert into  tab_store(name,disc,picPath,score,salNum,distance,deliveryTime,startPrice,currentPirce)
+  values ("粥大福","粥大福(钟楼店)，碑林区粥店人气榜第一名","imgs/list1.jpg",4.9,3000,4.5,31,15,3),
+         ("茶百道","山海馈赠，自然酸甜","imgs/list2.jpg",4.9,2000,3.9,20,15,4),
+         ("老长沙湘菜馆","新店开业，如果不足知足，敬请谅解","imgs/list3.jpg",4.8,200,2.5,45,15,6),
+         ("井盒炒饭","井盒炒饭，碑林区粥店人气榜第一名","imgs/list4.jpg",4.9,3000,4.5,31,15,3),
+         ("茶话弄","山海馈赠，自然酸甜","imgs/list5.jpg",4.9,1000,3.9,20,15,4),
+         ("江川右","新店开业，如果不足知足，敬请谅解","imgs/list6.jpg",4.8,1200,2.5,45,15,6);
+
+
+# 创建用户表
+create table tab_user(
+    id int primary key auto_increment,
+    username varchar(50) not null,
+    password varchar(20) not null,
+    emial varchar(50) not null ,
+    age int,
+    sex int default 0,
+    address varchar(200)
+);
+
+insert into tab_user(username, password, email, age, address)
+  values("Tom","123456","Tom@163.com",20,"西安交通大学兴庆校区"),
+        ("Jack","123456","Jack@163.com",21,"西工大边家村校区"),
+        ("Gary","123456","Gary@163.com",20,"西北农林大学"),
+        ("Lily","123456","Lily@163.com",28,"西北大学边家村校区");
+
+
+
+select * from tab_store;
+select * from tab_user;
+
