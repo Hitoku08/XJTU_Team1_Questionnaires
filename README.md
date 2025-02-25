@@ -1,6 +1,6 @@
-# XJTU_Team1_Questionnaires
+# XJTU Team1 Questionnaires
 西安交通大学2023小学期二班一组调查问卷项目
-2023 XJTU Summer Elementary Semester Project: A Questionnaires Research Application
+2023 XJTU Summer Internship Project: A Questionnaires Research Web Application
 
 ## Login
 
